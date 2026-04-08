@@ -94,9 +94,9 @@ int main()
                 display();
                 break;
         }
-    } while (choice != 0);
+    } 
+    while (choice != 0);
 
-    // Cleanup remaining nodes
     while (top != nullptr) 
     {
         Node* temp = top;
